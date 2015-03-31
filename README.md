@@ -13,5 +13,5 @@
 ### [el] eventListeners pattern
 ![alt text](http://www.lnfnunes.com.br/SublimeTips/event-listeners.sublime-snippet.gif "eventListeners Snippet Preview")
 
-### [el] notificationListeners pattern
+### [nl] notificationListeners pattern
 ![alt text](http://www.lnfnunes.com.br/SublimeTips/notification-listeners.sublime-snippet.gif "notificationListeners Snippet Preview")
