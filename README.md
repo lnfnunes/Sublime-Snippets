@@ -1,5 +1,5 @@
 # My custom Sublime Snippets.
->Save these files into Sublime Packages/User folder.
+>Save these (_.sublime-snippets_) files into Sublime Packages/User folder.
 <br />On Windows it's located at "C:\Users{{username}}\AppData\Roaming\Sublime Text 3\Packages\User"
 
 ### [cl] console.log
