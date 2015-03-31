@@ -1,8 +1,9 @@
 # My custom Sublime Snippets.
 
-## YUIDoc
-Trigger: <b>/**</b>
+### [cl] console.log
+![alt text](http://www.lnfnunes.com.br/img/sublime-snippet-console-log.gif "YUIDoc Snippet Preview")
 
+### [/**] YUIDoc
 ![alt text](http://www.lnfnunes.com.br/img/sublime-snippet-yuidoc.gif "YUIDoc Snippet Preview")
 
 >Save this file into Sublime Packages/User folder.
