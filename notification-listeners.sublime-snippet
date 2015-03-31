@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+/**
+* Single method to easily enable/disable event notification (pubsub) listeners.
+* @method __notificationListener
+* @private
+*
+* Usage example:
+*    __notificationListeners(true) // Enable all declared subscriptions.
+*    __notificationListeners(false) // Disable all declared subscriptions.
+* 
+* @return {Void} 
+*/
+__notificationListeners = function(value) {
+    var func = value ? 'subscribe' : 'unsubscribe';
+    if(value) { __notificationListeners(false); }
+
+    \$[func](${1:strNotification}, ${2:fnHandler});
+};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>nl</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
