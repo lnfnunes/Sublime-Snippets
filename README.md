@@ -1,5 +1,4 @@
-# Sublime-Snippets
-My Sublime Snippets.
+# My custom Sublime Snippets.
 
 ## YUIDoc
 Trigger: <b>/**</b>
