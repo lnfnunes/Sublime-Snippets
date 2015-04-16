@@ -1,15 +1,15 @@
 <snippet>
 	<content><![CDATA[
 /**
-* ${1:methodDescription}
-* 
-* @method ${2:methodName}
-* @${3:methodVisiblity}
-* 
-* @param {${4:[argumentType]}} ${5:argument} ${6:argumentDescription}
-* 
-* @return {${7:[methodRetuns]}}
-**/
+ * ${1:methodDescription}
+ * 
+ * @method ${2:methodName}
+ * @${3:methodVisiblity}
+ * 
+ * @param {${4:[argumentType]}} ${5:argument} ${6:argumentDescription}
+ * 
+ * @return {${7:[methodRetuns]}}
+ **/
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>/**</tabTrigger>
