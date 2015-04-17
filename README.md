@@ -5,6 +5,9 @@
 ### [cl] console.log
 ![alt text](http://www.lnfnunes.com.br/SublimeTips/console.log.sublime-snippet.gif "console.log Snippet Preview")
 
+### [us] 'use strict'
+![alt text](http://www.lnfnunes.com.br/SublimeTips/usestrict-sublime-snippet.gif "use strict Snippet Preview")
+
 ### [/**] YUIDoc
 ![alt text](http://www.lnfnunes.com.br/SublimeTips/yuidoc.sublime-snippet.gif "YUIDoc Snippet Preview")
 
