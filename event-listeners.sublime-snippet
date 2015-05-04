@@ -13,7 +13,7 @@
 */
 __eventListeners = function(value) {
     var func = value ? 'on' : 'off';
-    if(value) { __eventListeners(false); }
+    if (value) { __eventListeners(false); }
 
     ${1:\$jquerySelector}[func]('vclick', ${2:fnHandler});
 };
