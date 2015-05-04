@@ -1,16 +1,16 @@
 <snippet>
     <content><![CDATA[
 /**
-* Single method to easily enable/disable event handler listeners.
-* @method __eventListeners
-* @private
-*
-* Usage example:
-*    __eventListenerss(true) // Enable all listeners.
-*    __eventListenerss(false) // Disable all listeners.
-* 
-* @return {Void} 
-*/
+ * Single method to easily enable/disable event handler listeners.
+ * @method __eventListeners
+ * @private
+ *
+ * Usage example:
+ *    __eventListenerss(true) // Enable all listeners.
+ *    __eventListenerss(false) // Disable all listeners.
+ * 
+ * @return {Void} 
+ */
 __eventListeners = function(value) {
     var func = value ? 'on' : 'off';
     if (value) { __eventListeners(false); }
