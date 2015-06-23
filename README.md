@@ -21,3 +21,4 @@
 
 ### [forin] for..in with ownproperty validation
 ![alt text](http://www.lnfnunes.com.br/SublimeTips/forin.sublime-snippet.gif "forin Snippet Preview")
+
