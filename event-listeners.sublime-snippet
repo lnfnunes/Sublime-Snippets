@@ -1,19 +1,19 @@
 <snippet>
     <content><![CDATA[
 /**
- * Single method to easily enable/disable event handler listeners.
- * @method __eventListeners
- * @private
- *
- * Usage example:
- *    __eventListenerss(true) // Enable all listeners.
- *    __eventListenerss(false) // Disable all listeners.
- * 
- * @return {Void} 
- */
+* Single method to easily enable/disable event handler listeners.
+* @method __eventListeners
+* @private
+*
+* Usage example:
+*    __eventListeners(true) // Enable all listeners.
+*    __eventListeners(false) // Disable all listeners.
+*
+* @return {Void}
+*/
 function __eventListeners(value) {
     var func = value ? 'on' : 'off';
-    if (value) { __eventListeners(false); }
+    if(value) { __eventListeners(false); }
 
     ${1:\$jquerySelector}[func]('vclick', ${2:fnHandler});
 }
