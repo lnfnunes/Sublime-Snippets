@@ -15,7 +15,7 @@ function = __notificationListeners(value) {
     var func = value ? 'subscribe' : 'unsubscribe';
     if (value) { __notificationListeners(false); }
 
-    \$[func](${1:strNotification}, ${2:fnHandler});
+    $[func](${1:strNotification}, ${2:fnHandler});
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
