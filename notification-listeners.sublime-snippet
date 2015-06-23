@@ -1,21 +1,21 @@
 <snippet>
     <content><![CDATA[
 /**
- * Single method to easily enable/disable event notification (pubsub) listeners.
- * @method __notificationListener
- * @private
- *
- * Usage example:
- *    __notificationListeners(true) // Enable all declared subscriptions.
- *    __notificationListeners(false) // Disable all declared subscriptions.
- * 
- * @return {Void} 
- */
-function = __notificationListeners(value) {
+* Single method to easily enable/disable event notification (pubsub) listeners.
+* @method __notificationListeners
+* @private
+*
+* Usage example:
+*    __notificationListeners(true) // Enable all declared subscriptions.
+*    __notificationListeners(false) // Disable all declared subscriptions.
+*
+* @return {Void}
+*/
+function __notificationListeners(value) {
     var func = value ? 'subscribe' : 'unsubscribe';
-    if (value) { __notificationListeners(false); }
+    if(value) { __notificationListener(false); }
 
-    $[func](${1:strNotification}, ${2:fnHandler});
+    \$[func](${1:strNotification}, ${2:fnHandler});
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
