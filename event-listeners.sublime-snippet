@@ -11,12 +11,12 @@
  * 
  * @return {Void} 
  */
-__eventListeners = function(value) {
+function __eventListeners(value) {
     var func = value ? 'on' : 'off';
     if (value) { __eventListeners(false); }
 
     ${1:\$jquerySelector}[func]('vclick', ${2:fnHandler});
-};
+}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>el</tabTrigger>
